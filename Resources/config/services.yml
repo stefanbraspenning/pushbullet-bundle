@@ -1,0 +1,8 @@
+parameters:
+  sb_pushbullet.api_client.class: Pushbullet\Pushbullet
+
+services:
+  sb_pushbullet.api_client:
+    class: %sb_pushbullet.api_client.class%
+    arguments:
+      - %sb_pushbullet.api_token%

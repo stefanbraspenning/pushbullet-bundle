@@ -1,0 +1,38 @@
+{
+  "name": "stefanbraspenning/pushbullet-bundle",
+  "description": "This bundle provides integration with the Pushbullet API library, allowing you to interact with the Pushbullet API from within your Symfony projects",
+  "keywords": [
+    "pushbullet",
+    "api",
+    "symfony",
+    "bundle"
+  ],
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Stefan Braspenning",
+      "homepage": "https://github.com/stefanbraspenning",
+      "email": "stefan.braspenning@outlook.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "ivkos/pushbullet": "^3.1",
+    "symfony/dependency-injection": "^2.7",
+    "symfony/http-kernel": "^2.7"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.4",
+    "matthiasnoback/symfony-config-test": "~0.2",
+    "matthiasnoback/symfony-dependency-injection-test": "~0.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "SB\\Bundle\\PushbulletBundle\\": ""
+    }
+  },
+  "config": {
+    "bin-dir": "bin"
+  }
+}
