@@ -31,6 +31,6 @@ class ExtensionTest extends AbstractExtensionTestCase
      */
     protected function getContainerExtensions()
     {
-        return [new SBPushbulletExtension()];
+        return [ new SBPushbulletExtension() ];
     }
 }

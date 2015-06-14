@@ -27,7 +27,7 @@ class ConfigurationTest extends AbstractConfigurationTestCase
 
         $this->assertConfigurationIsValid(
             [
-                []
+                [ ]
             ]
         );
     }
@@ -36,7 +36,7 @@ class ConfigurationTest extends AbstractConfigurationTestCase
     {
         $this->assertConfigurationIsInvalid([
             [
-                'api_token' => [],
+                'api_token' => [ ],
             ]
         ], 'api_token');
 

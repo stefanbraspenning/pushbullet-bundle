@@ -42,6 +42,6 @@ class SBPushbulletExtension extends Extension
      */
     protected function setParameters(ContainerBuilder $container, array $config)
     {
-        $container->setParameter('sb_pushbullet.api_token', $config['api_token']);
+        $container->setParameter('sb_pushbullet.api_token', $config[ 'api_token' ]);
     }
 }
